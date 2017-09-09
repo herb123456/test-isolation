@@ -15,7 +15,7 @@ $product->setName($newProductName);
 $entityManager->persist($product);
 $entityManager->flush();
 
-sleep(1000000);
+sleep(10);
 $conn->rollBack();
 
 echo "Created Product with ID " . $product->getId() . "\n";
