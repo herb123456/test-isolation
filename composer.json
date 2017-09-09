@@ -1,0 +1,16 @@
+{
+    "name": "herb/doctrine",
+    "authors": [
+        {
+            "name": "herb",
+            "email": "herb@m.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "v2.5.9",
+        "symfony/yaml": "2.*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
